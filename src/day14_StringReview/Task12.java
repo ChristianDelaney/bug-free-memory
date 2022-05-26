@@ -1,13 +1,17 @@
 package day14_StringReview;
 
+import java.util.Scanner;
+
 public class Task12 {
 	
 	public static void main(String[] args) {
-		String email = "christian_delaney@gmail.com";
+		Scanner email = new Scanner(System.in);
 		
-		if (!email.contains("_")) {
-			System.out.println(email);
-		}
+		String email1 = "christian_delaney@gmail.com";
+		
+		if (!email1.contains("_")) {
+			System.out.println(email1);
+		} 
 		
 		
 		

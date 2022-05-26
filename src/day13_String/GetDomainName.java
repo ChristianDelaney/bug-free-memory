@@ -13,7 +13,7 @@ public class GetDomainName {
 		System.out.println(wal.indexOf('@'));
 		
 		System.out.println(wal.substring(4));
-		System.out.println(wal.substring(4 + 1));
+		System.out.println(wal.substring(4 + 2));
 		System.out.println(wal.lastIndexOf('.'));
 		
 		System.out.println(wal.substring(4+1, 12));
